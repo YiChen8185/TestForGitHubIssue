@@ -16,7 +16,6 @@ body:
         🙋 [Report issue](https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2)
         ↩ https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2
   - type: markdown
-    id: mkid
     attribute:
       value: TestTest
     
