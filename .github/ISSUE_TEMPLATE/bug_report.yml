@@ -1,6 +1,5 @@
 name: "ArXiv HTML Content issue"
 description: Testing for Template Now!
-labels: ["needs triage"]
 body:
   - type: markdown
     attributes:
