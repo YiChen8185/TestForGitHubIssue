@@ -27,8 +27,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Set automatically. Do not modify.
         ---
+        \n
+        \n
+        ## Set automatically. Do not modify.
+        
     
   - type: textarea
     id: description
