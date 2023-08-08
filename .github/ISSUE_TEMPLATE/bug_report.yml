@@ -25,10 +25,10 @@ body:
 
 
   - type: markdown
-  attributes:
-    value: |
-      ## Set automatically. Do not modify.
-      ---
+    attributes:
+      value: |
+        ## Set automatically. Do not modify.
+        ---
     
   - type: input
     id: articleTitle
