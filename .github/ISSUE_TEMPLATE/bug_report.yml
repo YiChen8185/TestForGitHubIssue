@@ -28,13 +28,14 @@ body:
     attributes:
       value: |
         ---
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         ## Set automatically. Do not modify.
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        
         
   - type: textarea
     id: description
