@@ -28,9 +28,11 @@ body:
     attributes:
       value: |
         ---
-        \n
-        \n
         ## Set automatically. Do not modify.
+        <br>
+
+
+
         
     
   - type: textarea
