@@ -15,9 +15,6 @@ body:
         **Feasible link format**
         🙋 [Report issue](https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2)
         ↩ https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2
-  - type: markdown
-    attribute:
-      value: TestTest
     
   - type: input
     id: articleTitle
