@@ -16,9 +16,9 @@ body:
         🙋 [Report issue](https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2)
         ↩ https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2
   - type: input
-    id: articleTitel
+    id: articleTitle
     attributes:
-      label: Article Titel
+      label: Article Title
       description: The link to the page this issue is about or, if it's about multiple pages, an example or most important page.
     validations:
       required: true
