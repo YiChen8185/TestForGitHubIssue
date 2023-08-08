@@ -6,16 +6,15 @@ body:
       value: |
         ### Before you start
 
-        **Want to change a page yourself?** This content is open source!
-        ↩ Look for the _Edit on GitHub_ link on any MDN page.
+        **This is just a testing issue report**
+        ↩ Developing.
 
-        **Is your issue about a browser compatibility table?**
-        ↩ Use the _Report problems with this compatibility data on GitHub_ link next to a compatibility table.
+        **Write base on**
+        ↩ https://github.com/mdn/content/blob/main/.github/ISSUE_TEMPLATE/content-bug.yml?plain=1
 
-        **Need help with a browser?**
-        🙋 To get help with [Firefox](https://support.mozilla.org/en-US/kb/file-bug-report-or-feature-request-mozilla), [Chrome](https://support.google.com/chrome/answer/95315?hl=en-GB&ref_topic=7439544), [Safari](https://www.apple.com/feedback/safari.html), or another browser, check the browser's support site.
-
-        ---
+        **Feasible link format**
+        🙋 [Report issue](https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2)
+        ↩ https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2
   - type: input
     id: mdn-url
     attributes:
