@@ -1,5 +1,5 @@
-name: "Content issue"
-description: Report a problem with content on MDN. This is just for testing, Copy from MDN
+name: "ArXiv HTML Content issue"
+description: Testing for Template Now!
 labels: ["needs triage"]
 body:
   - type: markdown
