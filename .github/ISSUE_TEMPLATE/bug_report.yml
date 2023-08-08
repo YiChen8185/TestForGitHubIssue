@@ -16,6 +16,8 @@ body:
         🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title)
         ↩ https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title
 
+        ---
+
   - type: input
     id: section
     attributes:
