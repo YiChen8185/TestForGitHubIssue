@@ -13,8 +13,8 @@ body:
         ↩ https://github.com/mdn/content/blob/main/.github/ISSUE_TEMPLATE/content-bug.yml?plain=1
 
         **Feasible link format**
-        🙋 [Report issue](https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2)
-        ↩ https://github.com/mdn/content/issues/new?template=page-report.yml&amp;mdn-url=testestest&section=test2
+        🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title)
+        ↩ https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title
     
   - type: input
     id: articleTitle
