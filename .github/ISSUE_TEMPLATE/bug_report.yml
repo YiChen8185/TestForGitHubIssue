@@ -16,18 +16,10 @@ body:
         🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title)
         ↩ https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title
 
-  ## Content for user to fill in.
   - type: input
     id: section
     attributes:
       label: What specific section or headline is this issue about?
-
-  ## Content Set automatically. Do not modify.
-  - type: markdown
-    attributes:
-      value: |
-        ## Set automatically. Do not modify.
-
     
   - type: input
     id: articleTitle
