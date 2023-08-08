@@ -1,55 +1,38 @@
-name: "Testing!!!"
-description: This is Report template copy from MDN.
-labels: ["needs triage"]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ### Before you start
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
-        **Want to change a page yourself?** This content is open source!
-        ↩ Look for the _Edit on GitHub_ link on any MDN page.
+---
 
-        **Is your issue about a browser compatibility table?**
-        ↩ Use the _Report problems with this compatibility data on GitHub_ link next to a compatibility table.
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-        **Need help with a browser?**
-        🙋 To get help with [Firefox](https://support.mozilla.org/en-US/kb/file-bug-report-or-feature-request-mozilla), [Chrome](https://support.google.com/chrome/answer/95315?hl=en-GB&ref_topic=7439544), [Safari](https://www.apple.com/feedback/safari.html), or another browser, check the browser's support site.
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-        ---
-  - type: input
-    id: mdn-url
-    attributes:
-      label: MDN URL
-      description: The link to the page this issue is about or, if it's about multiple pages, an example or most important page.
-    validations:
-      required: true
-  # -- BEGIN fields that correspond to `page-report.yml` —-
-  # If you edit these fields, edit them in both files!
-  - type: input
-    id: section
-    attributes:
-      label: What specific section or headline is this issue about?
-  - type: textarea
-    id: problem
-    attributes:
-      label: What information was incorrect, unhelpful, or incomplete?
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: What did you expect to see?
-    validations:
-      required: true
-  - type: textarea
-    id: references
-    attributes:
-      label: Do you have any supporting links, references, or citations?
-      description: Link to information that helps us confirm your issue.
-  - type: textarea
-    id: more-info
-    attributes:
-      label: Do you have anything more you want to share?
-      description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code
-  # -- END fields that correspond to `page-report.yml` —-
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
+
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
+
+**Additional context**
+Add any other context about the problem here.
