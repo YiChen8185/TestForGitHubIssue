@@ -16,6 +16,8 @@ body:
         🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title)
         ↩ https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title
 
+        ---
+
   ## Content for user to fill in.
   - type: input
     id: section
@@ -25,8 +27,9 @@ body:
   ## Content Set automatically. Do not modify.
   - type: markdown
     attributes:
-      value: |
-        ## Set automatically. Do not modify.
+      value:
+      ---
+        # Set automatically. Do not modify.
 
     
   - type: input
