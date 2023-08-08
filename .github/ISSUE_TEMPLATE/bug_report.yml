@@ -22,6 +22,13 @@ body:
     id: section
     attributes:
       label: What specific section or headline is this issue about?
+
+
+  - type: markdown
+  attributes:
+    value: |
+      ## Set automatically. Do not modify.
+      ---
     
   - type: input
     id: articleTitle
