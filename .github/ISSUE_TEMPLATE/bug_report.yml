@@ -23,10 +23,16 @@ body:
       description: The link to the page this issue is about or, if it's about multiple pages, an example or most important page.
     validations:
       required: true
-  - type: static
-    id: st
-    attribute: 
-      lable: Static Testing.
+  - type: dropdown
+    id: articleTitle
+    attributes:
+      label: "Info:"
+      description: "Article Title: The link to the page this issue is about or, if it's about multiple pages, an example or most important page."
+      options:
+        - "Do not modify this dropdown"
+    validations:
+      required: false
+      
   # -- BEGIN fields that correspond to `page-report.yml` —-
   # If you edit these fields, edit them in both files!
   - type: input
