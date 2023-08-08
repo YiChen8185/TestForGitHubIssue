@@ -26,6 +26,7 @@ body:
   - type: static
     id: st
     attribute: 
+      lable: Static Testing.
   # -- BEGIN fields that correspond to `page-report.yml` —-
   # If you edit these fields, edit them in both files!
   - type: input
