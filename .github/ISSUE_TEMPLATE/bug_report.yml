@@ -9,8 +9,8 @@ body:
         **This is a testing report template**
         ↩ Developing.
 
-        **Report generate problem**
-        🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=GeneralProblem)
+        **Report general problem**
+        🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&title=GeneralProblem&template=bug_report.yml&articleTitle=GeneralProblem)
 
         ---
 
@@ -58,9 +58,9 @@ body:
     attributes:
       label: What device are you using?
       options:
-        - Iphone
+        - Mobile
         - Desktop
-        - Ipda
+        - IPad
         - VR?
     validations:
       required: true
