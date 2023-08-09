@@ -40,7 +40,7 @@ body:
   - type: checkboxes
     id: comfirm
     attributes:
-      label: Please indicate which programming languages you like by checking the boxes.
+      label: Which programming languages do you like?
       description: Check the box.
       options:
         - label: LaTex (required.)
