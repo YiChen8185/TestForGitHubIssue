@@ -53,27 +53,27 @@ body:
       required: true
 
   # Example.
-- type: dropdown
-  id: device
-  attributes:
-    label: What device are you using?
-    options:
-      - Iphone
-      - Desktop
-      - Ipda
-      - VR?
-  validations:
-    required: true
-
-
-- type: checkboxes
-  id: comfirm
-  attributes:
-    label: Is everydata looks good
-    description: Check the box.
-    options:
-      - label: Comfirm (required.)
-        required: true
-      - label: Hello World
-      - label: ArXiv
-      - label: Ar5iv
+  - type: dropdown
+    id: device
+    attributes:
+      label: What device are you using?
+      options:
+        - Iphone
+        - Desktop
+        - Ipda
+        - VR?
+    validations:
+      required: true
+  
+  
+  - type: checkboxes
+    id: comfirm
+    attributes:
+      label: Is everydata looks good
+      description: Check the box.
+      options:
+        - label: Comfirm (required.)
+          required: true
+        - label: Hello World
+        - label: ArXiv
+        - label: Ar5iv
