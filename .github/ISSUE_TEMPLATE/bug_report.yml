@@ -12,13 +12,40 @@ body:
         **Report general problem**
         🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&title=General_Problem&template=bug_report.yml&articleTitle=GeneralProblem)
 
+        **Find Problem**
+        ‼️ Chrome may disable the ability to open new windows, and users will need to manually allow it. This does not happen in old one.
         ---
 
   - type: textarea
     id: extra-info
     attributes:
       label: Please free feel to share anything more?
-      description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code
+      description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code.
+      
+  - type: dropdown
+    id: device
+    attributes:
+      label: What device are you using?
+      options:
+        - Mobile
+        - Desktop
+        - IPad
+        - VR?
+    validations:
+      required: true
+  
+  
+  - type: checkboxes
+    id: comfirm
+    attributes:
+      label: Is everydata looks good
+      description: Check the box.
+      options:
+        - label: Comfirm (required.)
+          required: true
+        - label: Hello World
+        - label: ArXiv
+        - label: Ar5iv
 
 
   # Below is autofill section.
@@ -51,29 +78,3 @@ body:
       description: Set automatically. Do not modify.
     validations:
       required: true
-
-  # Example.
-  - type: dropdown
-    id: device
-    attributes:
-      label: What device are you using?
-      options:
-        - Mobile
-        - Desktop
-        - IPad
-        - VR?
-    validations:
-      required: true
-  
-  
-  - type: checkboxes
-    id: comfirm
-    attributes:
-      label: Is everydata looks good
-      description: Check the box.
-      options:
-        - label: Comfirm (required.)
-          required: true
-        - label: Hello World
-        - label: ArXiv
-        - label: Ar5iv
