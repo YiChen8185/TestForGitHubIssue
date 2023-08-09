@@ -1,26 +1,24 @@
 name: "ArXiv HTML Content issue"
-description: Testing for Template Now!
+description: Testing Template!
 body:
   - type: markdown
     attributes:
       value: |
         ### Before you start
 
-        **This is just a testing issue report**
+        **This is a testing report template**
         ↩ Developing.
 
-        **Write base on**
-        ↩ https://github.com/mdn/content/blob/main/.github/ISSUE_TEMPLATE/content-bug.yml?plain=1
-
-        **Feasible link format**
-        🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title)
-        ↩ https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=test_title
+        **Report generate problem**
+        🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&template=bug_report.yml&articleTitle=GeneralProblem)
 
         ---
 
   - type: textarea
+    id: extra-info
     attributes:
-      label: Anything you want to write.
+      label: Please free feel to share anything more?
+      description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code
 
 
   # Below is autofill section.
@@ -55,13 +53,27 @@ body:
       required: true
 
   # Example.
-  - type: textarea
-    id: references
-    attributes:
-      label: Do you have any supporting links, references, or citations?
-      description: Link to information that helps us confirm your issue.
-  - type: textarea
-    id: more-info
-    attributes:
-      label: Do you have anything more you want to share?
-      description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code
+- type: dropdown
+  id: device
+  attributes:
+    label: What device are you using?
+    options:
+      - Iphone
+      - Desktop
+      - Ipda
+      - VR?
+  validations:
+    required: true
+
+
+- type: checkboxes
+  id: comfirm
+  attributes:
+    label: Is everydata looks good
+    description: Check the box.
+    options:
+      - label: Comfirm (required.)
+        required: true
+      - label: Hello World
+      - label: ArXiv
+      - label: Ar5iv
