@@ -40,15 +40,14 @@ body:
   - type: checkboxes
     id: comfirm
     attributes:
-      label: Which programming languages do you like?
+      label: Which sport do you like?
       description: Check the box.
       options:
-        - label: LaTex (required.)
+        - label: required.
           required: true
-        - label: Java
-        - label: Python
-        - label: C
-        - lable: JavaScript
+        - label: Basketball
+        - label: Football
+        - label: Baseball
 
 
   # Below is autofill section.
