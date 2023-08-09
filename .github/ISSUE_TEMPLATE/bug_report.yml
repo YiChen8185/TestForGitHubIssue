@@ -40,14 +40,15 @@ body:
   - type: checkboxes
     id: comfirm
     attributes:
-      label: Is everydata looks good
+      label: Please indicate which programming languages you like by checking the boxes:
       description: Check the box.
       options:
-        - label: Comfirm (required.)
+        - label: LaTex (required.)
           required: true
-        - label: Hello World
-        - label: ArXiv
-        - label: Ar5iv
+        - label: Java
+        - label: Python
+        - label: C
+        - lable: JavaScript
 
 
   # Below is autofill section.
