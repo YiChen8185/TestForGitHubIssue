@@ -11,9 +11,11 @@ body:
 
         **Report general problem**
         🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&title=General_Problem&template=bug_report.yml&articleTitle=GeneralProblem)
-
-        **Find Problem**
+        
+        **Problem**
         ‼️ Chrome may disable the ability to open new windows, and users will need to manually allow it. This does not happen in old one.
+
+        
         ---
 
   - type: textarea
