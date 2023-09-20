@@ -13,7 +13,7 @@ body:
         🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&title=General_Problem&template=bug_report.yml&articleTitle=GeneralProblem)
         
         **Problem**
-        ‼️ Chrome may disable the ability to open new windows, and users will need to manually allow it. This does not happen in old one.
+        ‼️ Chrome may disable the accsess to open new windows, and users will need to manually allow it.
 
         
         ---
