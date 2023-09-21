@@ -43,7 +43,7 @@ body:
       required: true
 
   - type: dropdown
-    id: screenReader_device
+    id: screenReader-device
     attributes:
       label: If you use screenReader, which reader do you use?
       options:
@@ -65,7 +65,7 @@ body:
         - label: Math equation
 
   - type: dropdown
-    id: contact_or_not
+    id: contact-or-not
     attributes:
       label: Do you want future contact?
       options:
