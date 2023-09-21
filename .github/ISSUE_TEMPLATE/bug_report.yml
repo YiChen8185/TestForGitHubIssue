@@ -17,6 +17,12 @@ body:
 
         
         ---
+  
+  - type: textarea
+    id: issue-name
+    attributes:
+      label: Enter issue name
+      description: quickly describe the issue, give it a title. 
 
   - type: textarea
     id: extra-info
