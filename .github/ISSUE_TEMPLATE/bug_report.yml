@@ -64,15 +64,6 @@ body:
         - label: Font
         - label: Math equation
 
-  - type: dropdown
-    id: contact-or-not
-    attributes:
-      label: Do you want future contact?
-      options:
-        - Yes
-        - No
-    validations:
-      required: true
 
 
   # Below is autofill section.
