@@ -67,10 +67,10 @@ body:
   - type: dropdown
     id: contact-or-not
     attributes:
-      label: Do you want future contact?
+      label: Example for say yes or no?
       options:
-        - Yes, please
-        - No, thanks
+        - Yes.
+        - No.
     validations:
       required: true
 
@@ -79,6 +79,12 @@ body:
   - type: markdown
     attributes:
       value: |
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         <br>
         <br>
