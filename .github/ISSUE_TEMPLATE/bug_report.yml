@@ -110,3 +110,19 @@ body:
       description: Set automatically. Do not modify.
     validations:
       required: true
+  
+  - type: textarea
+    id: arxivId
+    attributes:
+      label: arXiv Id for the Article
+      description: Set automatically. Do not modify.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: browserInfo
+    attributes:
+      label: browserInfo for the Article
+      description: Set automatically. Do not modify.
+    validations:
+      required: true
