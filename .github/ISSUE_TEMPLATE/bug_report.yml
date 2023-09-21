@@ -41,19 +41,38 @@ body:
         - VR?
     validations:
       required: true
-  
+
+  - type: dropdown
+    id: screenReader_device
+    attributes:
+      label: If you use screenReader, which reader do you use?
+      options:
+        - VoiceOver
+        - A
+        - B
+        - C
   
   - type: checkboxes
     id: comfirm
     attributes:
-      label: Which sport do you like?
+      label: What general problem do you face?
       description: Check the box.
       options:
-        - label: required.
+        - label: required to select.
           required: true
-        - label: Basketball
-        - label: Football
-        - label: Baseball
+        - label: Image
+        - label: Font
+        - label: Math equation
+
+  - type: dropdown
+    id: contact_or_not
+    attributes:
+      label: Do you want future contact?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
 
 
   # Below is autofill section.
