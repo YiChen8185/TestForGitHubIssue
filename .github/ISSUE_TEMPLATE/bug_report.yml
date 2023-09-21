@@ -64,13 +64,21 @@ body:
         - label: Font
         - label: Math equation
 
+  - type: dropdown
+    id: contact-or-not
+    attributes:
+      label: Do you want future contact?
+      options:
+        - Yes, please
+        - No, thanks
+    validations:
+      required: true
 
 
   # Below is autofill section.
   - type: markdown
     attributes:
       value: |
-        ---
         <br>
         <br>
         <br>
