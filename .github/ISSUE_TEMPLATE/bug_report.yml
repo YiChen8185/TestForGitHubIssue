@@ -33,17 +33,16 @@ body:
       label: Please free feel to share anything more?
       description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code.
 
-
-      
+   
   - type: dropdown
     id: device
     attributes:
-      label: What device are you using?
+      label: Define the type of the problem?
       options:
-        - Desktop
-        - Mobile
-        - IPad
-        - VR?
+        - Math
+        - Figures
+        - References
+        - Other
     validations:
       required: true
 
