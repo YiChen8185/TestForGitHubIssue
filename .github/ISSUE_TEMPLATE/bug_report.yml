@@ -50,7 +50,6 @@ body:
         - VoiceOver
         - NVDA
         - VoiceOver
-        - Other(_)
   
   - type: checkboxes
     id: comfirm
