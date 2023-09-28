@@ -17,12 +17,15 @@ body:
 
         
         ---
-  
-  - type: textarea
+      
+  - type: input
     id: issue-name
     attributes:
       label: Enter issue name
-      description: quickly describe the issue, give it a title. 
+      description: quickly describe the issue, give it a title.
+      placeholder: "Issue Name"
+    validations:
+      required: true
 
   - type: textarea
     id: extra-info
@@ -30,14 +33,7 @@ body:
       label: Please free feel to share anything more?
       description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code.
 
-  - type: input
-    id: prevalence
-    attributes:
-      label: Bug prevalence
-      description: "How often do you or others encounter this bug?"
-      placeholder: "Whenever I visit the user account page (1-2 times a week)"
-    validations:
-      required: true
+
       
   - type: dropdown
     id: device
