@@ -100,7 +100,7 @@ body:
         # Set automatically. Do not modify.
         
         
-  - type: textarea
+  - type: input
     id: description
     attributes:
       description: Set automatically. Do not modify.
@@ -108,7 +108,7 @@ body:
     validations:
       required: true
   
-  - type: textarea
+  - type: input
     id: uniqueId
     attributes:
       label: UniqueId for the Article
@@ -116,7 +116,7 @@ body:
     validations:
       required: true
   
-  - type: textarea
+  - type: input
     id: arxivId
     attributes:
       label: arXiv Id for the Article
@@ -124,7 +124,7 @@ body:
     validations:
       required: true
   
-  - type: textarea
+  - type: input
     id: browserInfo
     attributes:
       label: browserInfo for the Article
