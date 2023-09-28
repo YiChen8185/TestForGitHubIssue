@@ -61,28 +61,6 @@ body:
     attributes:
       label: what is your screenReader 
       description: If you select other above for screenReader, please enter what screenReader do you use.
-  
-  - type: checkboxes
-    id: comfirm
-    attributes:
-      label: What general problem do you face?
-      description: Check the box.
-      options:
-        - label: required to select.
-          required: true
-        - label: Image
-        - label: Font
-        - label: Math equation
-
-  - type: dropdown
-    id: contact-or-not
-    attributes:
-      label: Example for say yes or no?
-      options:
-        - Yes.
-        - No.
-    validations:
-      required: true
 
 
   # Below is autofill section.
