@@ -29,6 +29,15 @@ body:
     attributes:
       label: Please free feel to share anything more?
       description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code.
+
+  - type: input
+    id: prevalence
+    attributes:
+      label: Bug prevalence
+      description: "How often do you or others encounter this bug?"
+      placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    validations:
+      required: true
       
   - type: dropdown
     id: device
@@ -48,9 +57,9 @@ body:
       label: If you use screenReader, which reader do you use?
       options:
         - VoiceOver
-        - A
-        - B
-        - C
+        - NVDA
+        - VoiceOver
+        - Other
   
   - type: checkboxes
     id: comfirm
