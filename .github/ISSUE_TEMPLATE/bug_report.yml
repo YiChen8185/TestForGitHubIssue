@@ -35,7 +35,7 @@ body:
 
    
   - type: dropdown
-    id: device
+    id: problem-type
     attributes:
       label: Define the type of the problem?
       options:
@@ -54,7 +54,13 @@ body:
         - VoiceOver
         - NVDA
         - JAWS
-        - Other ()
+        - Other
+
+  - type: input
+    id: other-sr
+    attributes:
+      label: what is your screenReader 
+      description: If you select other above for screenReader, please enter what screenReader do you use.
   
   - type: checkboxes
     id: comfirm
