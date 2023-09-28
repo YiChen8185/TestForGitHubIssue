@@ -40,8 +40,8 @@ body:
     attributes:
       label: What device are you using?
       options:
-        - Mobile
         - Desktop
+        - Mobile
         - IPad
         - VR?
     validations:
