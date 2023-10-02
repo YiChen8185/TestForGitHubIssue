@@ -17,15 +17,6 @@ body:
 
         
         ---
-      
-  - type: input
-    id: issue-name
-    attributes:
-      label: Enter issue name
-      description: quickly describe the issue, give it a title.
-      placeholder: "Issue Name"
-    validations:
-      required: true
 
   - type: textarea
     id: extra-info
@@ -61,6 +52,15 @@ body:
     attributes:
       label: what is your screenReader 
       description: If you select other above for screenReader, please enter what screenReader do you use.
+
+  - type: input
+    id: contact-info
+    attributes:
+      label: Email
+      description: if you like to be volunteer to have future test on arXiv website.
+      placeholder: "Your email"
+    validations:
+      required: true
 
 
   # Below is autofill section.
