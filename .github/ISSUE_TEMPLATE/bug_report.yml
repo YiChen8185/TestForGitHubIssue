@@ -98,6 +98,14 @@ body:
       description: Set automatically. Do not modify.
     validations:
       required: true
+      
+  - type: input
+    id: fullUrl
+    attributes:
+      label: Url for the Article
+      description: Set automatically. Do not modify.
+    validations:
+      required: true
   
   - type: input
     id: arxivId
