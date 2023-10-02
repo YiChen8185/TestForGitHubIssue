@@ -122,3 +122,13 @@ body:
       description: Set automatically. Do not modify.
     validations:
       required: true
+
+  - type: input
+    id: deviceType
+    attributes:
+      label: Device Type
+      description: Set automatically. Do not modify.
+    validations:
+      required: true
+
+      
