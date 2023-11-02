@@ -1,0 +1,52 @@
+name: "Search_Id"
+description: Testing Template!
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Before you start
+
+        **This is a testing report template**
+        ↩ Developing.
+
+        **Report general problem**
+        🙋 [Report issue](https://github.com/YiChen8185/TestForGitHubIssue/issues/new?assignees=&labels=&projects=&title=!!!&template=search_id.yml&articleTitle=GeneralProblem)
+        
+        **Problem**
+        ‼️ Chrome may disable the accsess to open new windows, and users will need to manually allow it.
+
+        
+        ---
+
+  - type: textarea
+    id: extra-info
+    attributes:
+      label: Please free feel to share anything more?
+      description: For example, steps to reproduce a bug, screenshots, screen recordings, or sample code.
+
+  - type: dropdown
+    id: screenReader-device
+    attributes:
+      label: If you use screenReader, which reader do you use?
+      options:
+        - VoiceOver
+        - NVDA
+        - JAWS
+        - Other
+
+  - type: input
+    id: other-sr
+    attributes:
+      label: what is your screenReader 
+      description: If you select other above for screenReader, please enter what screenReader do you use.
+
+  - type: input
+    id: id
+    attributes:
+      label: Unique id
+      description: id for test.
+      placeholder: "Paper Id"
+    validations:
+      required: true
+
+      
